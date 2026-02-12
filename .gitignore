@@ -36,9 +36,8 @@ wheels/
 .env.local
 
 # Data files (optional - adjust based on your needs)
-*.csv
-*.xlsx
-*.xls
+# CSV/XLS files are tracked for deployment if needed
+# (removed wildcard to allow committing project data files)
 
 # Cache
 .cache/
